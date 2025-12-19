@@ -12,20 +12,20 @@
 
 2. Sigmoid Risk Scoring
 
-Non-linear risk scoring using a calibrated logistic equation
-Produces a continuous 0–100 risk score
-Prevents “everything is critical” syndrome common with CVSS-only models
+- Non-linear risk scoring using a calibrated logistic equation
+- Produces a continuous 0–100 risk score
+- Prevents “everything is critical” syndrome common with CVSS-only models
 
 3. Probabilistic Business-Criticality Prediction
 
-Logistic regression model estimating
-P(vulnerability is business-critical)
-Outputs interpretable probabilities instead of binary labels
-Designed for executive escalation, emergency patching, and SLA decisions
-Coefficient-based explainability (odds ratios, feature influence)
+- Logistic regression model estimating
+- P(vulnerability is business-critical)
+- Outputs interpretable probabilities instead of binary labels
+- Designed for executive escalation, emergency patching, and SLA decisions
+- Coefficient-based explainability (odds ratios, feature influence)
 
 4. Actionable Outputs
 
-Priority bands (P0–P3) with remediation SLAs
-Risk explanations highlighting key drivers (e.g. KEV + exposure + EPSS)
-Patch-team-friendly prioritisation rather than raw vulnerability counts
+- Priority bands (P0–P3) with remediation SLAs
+- Risk explanations highlighting key drivers (e.g. KEV + exposure + EPSS)
+- Patch-team-friendly prioritisation rather than raw vulnerability counts
