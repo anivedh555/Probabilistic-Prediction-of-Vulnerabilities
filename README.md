@@ -2,13 +2,13 @@
 
 1. Feature Engineering
 
-CVSS v3 and Qualys severity
-EPSS exploit probability
-CISA Known Exploited Vulnerabilities (KEV)
-Exploit availability (PoC / weaponisation)
-Internet exposure and lateral-movement potential
-Asset criticality and infrastructure role
-Vulnerability age (risk drift)
+- CVSS v3 and Qualys severity
+- EPSS exploit probability
+- CISA Known Exploited Vulnerabilities (KEV)
+- Exploit availability (PoC / weaponisation)
+- Internet exposure and lateral-movement potential
+- Asset criticality and infrastructure role
+- Vulnerability age (risk drift)
 
 2. Sigmoid Risk Scoring
 
